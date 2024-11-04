@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    &::after,
+    &::before {
+        box-sizing: border-box;
+    }
+}
+
+body {
+    
+}
+
+ul {
+    padding: 0;
+    li {
+        list-style: none;
+    }
+    margin-bottom: 0;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}

@@ -1,0 +1,82 @@
+:root {
+    /** primary **/
+    --color-primary: #ed1c24;
+    --color-primary-tint: #ef333a;
+    /** secondary **/
+    --color-secondary: #ffc80a;
+    --color-secondary-contrast: #000000;
+    --color-secondary-shade: #e0b009;
+    --color-secondary-tint: #ffce23;
+    /** tertiary **/
+    --color-tertiary: #373737;
+    --color-tertiary-contrast: #ffffff;
+    --color-tertiary-shade: #303030;
+    --color-tertiary-tint: #4b4b4b;
+    /** success **/
+    --color-success: #0dbf00;
+    --color-success-contrast: #ffffff;
+    --color-success-shade: #0ba800;
+    --color-success-tint: #25c51a;
+    /** warning **/
+    --color-warning: #6ad834;
+    --color-warning-contrast: #000000;
+    --color-warning-shade: #5dbe2e;
+    --color-warning-tint: #79dc48;
+    /** danger **/
+    --color-danger: #f6323b;
+    --color-danger-contrast: #ffffff;
+    --color-danger-shade: #d82c34;
+    --color-danger-tint: #f7474f;
+    /** dark **/
+    --color-dark: #131313;
+    --color-dark-contrast: #ffffff;
+    --color-dark-shade: #111111;
+    --color-dark-tint: #2b2b2b;
+    /** medium **/
+    --color-medium: #f5f5f5;
+    --color-medium-contrast: #000000;
+    --color-medium-shade: #d8d8d8;
+    --color-medium-tint: #f6f6f6;
+    /** light **/
+    --color-light: #fcfcfc;
+    --color-light-contrast: #000000;
+    --color-light-shade: #dedede;
+    --color-light-tint: #fcfcfc;
+    /* gray */
+    --color-gray: #858585;
+    --color-gray-contrast: #000000;
+    --color-gray-shade: #757575;
+    --color-gray-tint: #919191;
+    // hard-gray
+    --color-hard-gray: #424242;
+    --color-hard-gray-contrast: #ffffff;
+    --color-hard-gray-shade: #3a3a3a;
+    --color-hard-gray-tint: #555555;
+    //
+    --color-link: #ffc602;
+    --color-link-contrast: #000000;
+    --color-link-shade: #e0ae02;
+    --color-link-tint: #ffcc1b;
+    // white
+    --color-white: #ffffff;
+    --color-white-contrast: #000000;
+    --color-white-shade: #e0e0e0;
+    --color-white-tint: #ffffff;
+    // blue
+    --color-blue: #0291ff;
+    --color-blue-contrast: #ffffff;
+    --color-blue-shade: #0280e0;
+    --color-blue-tint: #1b9cff;
+    //
+    --color-back: #e6e6e6;
+    --color-back-contrast: #000000;
+    --color-back-shade: #cacaca;
+    --color-back-tint: #e9e9e9;
+    /**/
+    --background-color: #ffffff;
+    --background-text-color: #2d2d2d;
+    --text-color: #707070;
+    --text-light: #94969a;
+    // app font root
+    --font-family: "IRANSans";
+}

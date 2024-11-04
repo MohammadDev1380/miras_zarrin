@@ -1,0 +1,98 @@
+@import '../../theme/mixin_extend';
+
+header {
+    .sec-one {
+        @extend %flex-row-between-center;
+        padding: 11px 0;
+
+        &>div {
+            &:first-child {
+                display: flex;
+                align-items: center;
+
+                .logo {
+                    width: 13%;
+                    margin-inline-end: 35px;
+                }
+
+                form {
+                    width: 65%;
+
+                    .form-group {
+                        position: relative;
+                        background: linear-gradient(80deg, rgba(187,172,138,1) 30%, rgba(124,97,60,1) 100%);
+                        padding: 1px;
+                        border-radius: 64px;
+                        input {
+                            padding-top: 8px;
+                            padding-bottom: 8px;
+                            border-radius: inherit;
+                            border: 0;
+                            &:focus {
+                                border-color: unset;
+                                box-shadow: unset;
+                            }
+                        }
+                        img {
+                            position: absolute;
+                            top: 26.5%;
+                            left: 4.5%;
+                            width: 4%;
+                        }
+                    }
+                }
+            }
+
+            &:not(:first-child) {
+                &>div {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                    .call-section {
+                        display: inline-flex;
+                        align-items: center;
+
+                        .first {
+                            text-align: end;
+                            margin-inline-end: 18px;
+
+                            small {
+                                font-size: 13px;
+                            }
+
+                            span {
+                                font-size: 18px;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+
+                    .dropdown {
+                        a {
+                            padding: 15px 13px;
+                            border-radius: 64px;
+                            border: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sec-two {
+        nav {
+            ul {
+                background-color: #222187;
+                color: #ffffff;
+                display: flex;
+                padding: 20px 61px;
+
+                li {
+                    margin-inline-end: 40px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

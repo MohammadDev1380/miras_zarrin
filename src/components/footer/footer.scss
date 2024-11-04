@@ -1,0 +1,105 @@
+footer {
+    background-color: #f2f2f2;
+    position: relative;
+    padding-bottom: 35px;
+    .right-side-pattern {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 8%;
+        margin: auto 0;
+    }
+    .footer-head {
+        background: linear-gradient(180deg, rgba(184,0,5,1) 0%, rgba(121,0,0,1) 100%);
+        display: flex;
+        align-items: center;
+        padding: 30px 40px;
+        border-radius: 22px;
+        transform: translateY(-48%);
+        p {
+            margin: 0;
+            color: #ffffff;
+            line-height: 33px;
+            font-size: 19px;
+            margin-inline-end: 66px;
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            li {
+                box-shadow: 6px 0 13px rgb(0 0 0 / 45%);
+                border-radius: 50%;
+                background: linear-gradient(90deg, rgba(199,177,102,1) 0%, rgba(255,243,190,1) 100%);
+                margin-inline-end: 22px;
+                width: 41px;
+                height: 41px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a {
+                    padding-top: 5px;
+                    i {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+        .center-pattern {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 99%;
+            z-index: -1;
+        }
+    }
+    .footer-body {
+        margin-top: 50px;
+        .footer-title {
+            display: inline-block;
+            margin-bottom: 25px;
+            img {
+                display: block;
+                margin: auto;
+                width: 51%;
+            }
+            h2 {
+                background: linear-gradient(0deg, rgba(220,203,165,1) 0%, rgba(149,120,81,1) 100%);
+                padding: 13px 42px;
+                border-radius: 64px;
+                display: inline-block;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+        .info {
+            display: flex;
+            align-items: flex-start;
+            img {
+                margin-inline-end: 14px;
+            }
+            &.location {
+                margin-inline-end: 40px;
+            }
+            &.call {
+
+            }
+        }
+        ul {
+            padding-inline-start: 10px;
+            li {
+                margin-bottom: 10px;
+            }
+        }
+        .footer-carpet {
+            position: relative;
+            img {
+                position: absolute;
+                left: -18%;
+                width: 140%;
+                bottom: -17vw;
+            }
+        }
+    }
+}
