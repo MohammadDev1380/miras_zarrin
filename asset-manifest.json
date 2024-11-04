@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/miras_zarrin/static/css/main.5258a327.css",
+    "main.js": "/miras_zarrin/static/js/main.4a3b5299.js",
+    "static/media/main-back.png": "/miras_zarrin/static/media/main-back.240703877925a8d2107a.png",
+    "static/media/IranNastaliq.ttf": "/miras_zarrin/static/media/IranNastaliq.244ccc29fc6f22b136fa.ttf",
+    "static/media/section5-bg.png": "/miras_zarrin/static/media/section5-bg.79d4b406a4d331a106da.png",
+    "static/media/footer-carpet.png": "/miras_zarrin/static/media/footer-carpet.ebb0f040ccf6bbfa348f.png",
+    "static/media/round-carpet.png": "/miras_zarrin/static/media/round-carpet.f776039026a166e1a9a1.png",
+    "static/media/section4-bg.png": "/miras_zarrin/static/media/section4-bg.a76e76be8398db490668.png",
+    "static/media/Layer 17.png": "/miras_zarrin/static/media/Layer 17.68e73a67600813034043.png",
+    "static/media/sample-carpet.png": "/miras_zarrin/static/media/sample-carpet.0ec564dcf1eb1f9d4837.png",
+    "static/media/Layer 19.png": "/miras_zarrin/static/media/Layer 19.46618c445e550ceafab9.png",
+    "static/media/IRANSansWeb_UltraLight.otf": "/miras_zarrin/static/media/IRANSansWeb_UltraLight.52345b42b4bd565360c2.otf",
+    "static/media/IRANSansWeb_Light.otf": "/miras_zarrin/static/media/IRANSansWeb_Light.3df8af8613bb9e06e197.otf",
+    "static/media/IRANSansWeb.otf": "/miras_zarrin/static/media/IRANSansWeb.69a99afcf918dec0c85d.otf",
+    "static/media/IRANSansWeb_Bold.otf": "/miras_zarrin/static/media/IRANSansWeb_Bold.a82002605b17bbac45e6.otf",
+    "static/media/Layer 18.png": "/miras_zarrin/static/media/Layer 18.99636be5b5288e1bdcfc.png",
+    "static/media/IRANSansWeb_Black.otf": "/miras_zarrin/static/media/IRANSansWeb_Black.f402ff7e9980c9ec8af8.otf",
+    "static/media/IRANSansWeb_Medium.otf": "/miras_zarrin/static/media/IRANSansWeb_Medium.77e6c6938d028ad7aa56.otf",
+    "static/media/carpet-pattern1.png": "/miras_zarrin/static/media/carpet-pattern1.85d2e111d680570e87d0.png",
+    "static/media/section3-bg.png": "/miras_zarrin/static/media/section3-bg.e35f2212282f6e12fc8d.png",
+    "static/media/Layer 9.png": "/miras_zarrin/static/media/Layer 9.bca4a4e9f9c70033a263.png",
+    "static/media/Layer 7.png": "/miras_zarrin/static/media/Layer 7.9b4240b52ab7023e2e42.png",
+    "static/media/Layer 3 copy.png": "/miras_zarrin/static/media/Layer 3 copy.be0f1163d21932287e28.png",
+    "static/media/Layer 10.png": "/miras_zarrin/static/media/Layer 10.d08cd5b9b42de107c740.png",
+    "static/media/Layer 11.png": "/miras_zarrin/static/media/Layer 11.ad224af28a5e3979d05a.png",
+    "static/media/Layer 8.png": "/miras_zarrin/static/media/Layer 8.6ca26f8f617dde617309.png",
+    "static/media/right-side-footer-pattern.png": "/miras_zarrin/static/media/right-side-footer-pattern.37c48712d0e7ab2c9ea7.png",
+    "index.html": "/miras_zarrin/index.html",
+    "main.5258a327.css.map": "/miras_zarrin/static/css/main.5258a327.css.map",
+    "main.4a3b5299.js.map": "/miras_zarrin/static/js/main.4a3b5299.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5258a327.css",
+    "static/js/main.4a3b5299.js"
+  ]
+}
