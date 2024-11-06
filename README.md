@@ -3,4 +3,6 @@ whats use in project :
     swiper js,
     bootstrap 
     jQuery,
-    sass
+    sass,
+    gsap,
+_____
