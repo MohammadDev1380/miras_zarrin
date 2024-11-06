@@ -171,31 +171,6 @@
     .section-4 {
         padding-top: 70px;
         text-align: center;
-
-        .pages-title {
-            position: relative;
-            display: inline-block;
-            margin-bottom: 14px;
-            h2 {
-                font-size: 25px;
-                font-weight: 600;
-            }
-
-            img {
-                position: absolute;
-                top: -28%;
-                width: 12%;
-
-                &.left {
-                    left: -13%;
-                }
-
-                &.right {
-                    right: -13%;
-                    transform: rotateY(180deg);
-                }
-            }
-        }
         .sec-bg {
             position: relative;
             img {
@@ -223,25 +198,9 @@
     }
     .section-6 {
         text-align: center;
+        margin-bottom: 170px;
         .pages-title {
             margin-top: 30px;
-            margin-bottom: 14px;
-            // 
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            h2 {
-                font-size: 25px;
-                font-weight: 600;
-                margin: 0 10px;
-            }
-            img {
-                width: 4.5%;
-                padding-bottom: 10px;
-                &.right {
-                    transform: rotateY(180deg);
-                }
-            }
         }
         .news-card {
             box-shadow: 0px 3px 14px 0px rgb(0 0 0 / 24%);
@@ -277,10 +236,27 @@
                 }
             }
         }
-        margin-bottom: 170px;
     }
-}
-
-.see-all {
-    margin-bottom: 60px;
+    .see-all {
+        margin-bottom: 60px;
+    }
+    
+    .pages-title {
+        margin-bottom: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2 {
+            font-size: 25px;
+            font-weight: 600;
+            margin: 0 10px;
+        }
+        img {
+            width: 4.5%;
+            padding-bottom: 10px;
+            &.right {
+                transform: rotateY(180deg);
+            }
+        }
+    }
 }

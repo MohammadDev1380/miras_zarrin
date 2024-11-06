@@ -180,11 +180,11 @@ const HomePage = () => {
             </section>
             <section className="section-4">
                 <div className="pages-title">
-                    <img className="left" src={pagesTitleDecor} alt="" />
                     <img className="right" src={pagesTitleDecor} alt="" />
                     <h2>
                         با قالی دستباف ایرانی، هنر اصیل ایرانی را مهمان خانه خود کنید.
                     </h2>
+                    <img className="left" src={pagesTitleDecor} alt="" />
                 </div>
                 <div className="see-all">
                     <span>
@@ -225,6 +225,55 @@ const HomePage = () => {
                                 />
                             </div>
                         </div>
+                        {/* <Swiper
+                            spaceBetween={25}
+                            slidesPerView={4}
+                            onSlideChange={() => { }}
+                            onSwiper={(swiper) => console.log(swiper)}
+                        >
+                            <SwiperSlide>
+                                <ProCard
+                                    img={carpetSample}
+                                    title="فرش های گلدانی"
+                                    subTitle="6 * 9"
+                                />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ProCard
+                                    img={carpetSample}
+                                    title="فرش های طرح محرابی"
+                                    subTitle="6 * 9"
+                                />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ProCard
+                                    img={carpetSample}
+                                    title="فرش های طرح اقتباسی"
+                                    subTitle="6 * 9"
+                                />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ProCard
+                                    img={carpetSample}
+                                    title="فرش های طرح تلفیقی"
+                                    subTitle="6 * 9"
+                                />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ProCard
+                                    img={carpetSample}
+                                    title="فرش های طرح تلفیقی"
+                                    subTitle="6 * 9"
+                                />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ProCard
+                                    img={carpetSample}
+                                    title="فرش های طرح تلفیقی"
+                                    subTitle="6 * 9"
+                                />
+                            </SwiperSlide>
+                        </Swiper> */}
                     </div>
                     <img className="bg" src={sec4Bg} alt="" />
                 </div>

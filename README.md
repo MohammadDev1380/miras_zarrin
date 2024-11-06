@@ -1,9 +1,6 @@
-تکراری ها رو اصلاح کن
-
-pages-title
-
-border-radius
-
-.news-card 
-
-fix elements shadow
+whats use in project : 
+    react js library,
+    swiper js,
+    bootstrap 
+    jQuery,
+    sass
