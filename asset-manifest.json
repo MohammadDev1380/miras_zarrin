@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/miras_zarrin/static/css/main.5258a327.css",
-    "main.js": "/miras_zarrin/static/js/main.29c8f81a.js",
+    "main.css": "/miras_zarrin/static/css/main.caeccb48.css",
+    "main.js": "/miras_zarrin/static/js/main.7be1ade3.js",
     "static/media/main-back.png": "/miras_zarrin/static/media/main-back.240703877925a8d2107a.png",
     "static/media/IranNastaliq.ttf": "/miras_zarrin/static/media/IranNastaliq.244ccc29fc6f22b136fa.ttf",
     "static/media/section5-bg.png": "/miras_zarrin/static/media/section5-bg.79d4b406a4d331a106da.png",
@@ -28,11 +28,11 @@
     "static/media/Layer 8.png": "/miras_zarrin/static/media/Layer 8.6ca26f8f617dde617309.png",
     "static/media/right-side-footer-pattern.png": "/miras_zarrin/static/media/right-side-footer-pattern.37c48712d0e7ab2c9ea7.png",
     "index.html": "/miras_zarrin/index.html",
-    "main.5258a327.css.map": "/miras_zarrin/static/css/main.5258a327.css.map",
-    "main.29c8f81a.js.map": "/miras_zarrin/static/js/main.29c8f81a.js.map"
+    "main.caeccb48.css.map": "/miras_zarrin/static/css/main.caeccb48.css.map",
+    "main.7be1ade3.js.map": "/miras_zarrin/static/js/main.7be1ade3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5258a327.css",
-    "static/js/main.29c8f81a.js"
+    "static/css/main.caeccb48.css",
+    "static/js/main.7be1ade3.js"
   ]
 }
