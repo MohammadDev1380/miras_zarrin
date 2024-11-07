@@ -27,9 +27,69 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 // 
 import ProCard from '../../components/product-card/product-card';
+// gsap
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 
 
 const HomePage = () => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    useGSAP(() => {
+        const tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: '.round-carpet',
+                start: 'top top',
+                end: '+=500',
+                scrub: 1
+            },
+            defaults: {
+                stagger: {
+                    amount: 0.5,
+                    from: 'start'
+                },
+                duration: 2,
+                ease: 'power2',
+                autoAlpha: 0
+            }
+        });
+        tl.fromTo('.pro-card',
+            {
+                yPercent: 100
+            },
+            {
+                yPercent: 0,
+                y: 0,
+                autoAlpha: 1
+            }
+        );
+        // ------- //
+        const tl2 = gsap.timeline({
+            scrollTrigger: {
+                trigger: '.section-2',
+                start: 'top top',
+                end: '+=400',
+                scrub: 1
+            },
+            defaults: {
+                stagger: {
+                    amount: 0.5,
+                    from: 'start'
+                },
+                duration: 2,
+                ease: 'power2',
+                rotate: 0
+            }
+        });
+        tl2.to('.round-carpet',
+            {
+                rotate: 180
+            }
+        )
+    })
+
+
     return (
         <div className="home">
             <section className="section-1">
@@ -43,8 +103,8 @@ const HomePage = () => {
                         navigation={true} modules={[Navigation]}
                         spaceBetween={10}
                         slidesPerView={6}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
+                        onSlideChange={() => {}}
+                        onSwiper={() => {}}
                     >
                         <SwiperSlide>
                             <div>
